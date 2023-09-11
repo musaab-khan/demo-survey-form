@@ -1,0 +1,62 @@
+body {
+    font-family: Monospace;
+    font-size: 18px;
+    /* background-color: rgba(82, 0, 158, 0.601); */
+    background-image: url(https://wallpaperaccess.com/full/1512223.jpg);
+    color: white;
+  }
+form{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    /* color: white; */
+    padding: 0 2em 1em 2em;
+}
+form fieldset{
+    margin: auto;
+    margin: 1em 0;
+}
+body h1, p {
+    text-align: center;
+    display: block;
+}
+form input{
+    display: block;
+    width: 100%; 
+}
+form label{
+    display: block;
+}
+.nationality input{
+    display: unset;
+    width: unset;
+}
+.contact-info p{
+    display: inline;
+}
+form p{
+    text-align: unset;
+    display: block;
+}
+form select option{
+    font-family: monospace;
+    display: inline;
+}
+.nationality p{
+ display: inline;
+}
+.suggestion textarea{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+input[type="submit"]{
+margin: 0 auto 0 auto;
+width: 40%;
+}
+input[type="text"], input[type="email"], input[type="number"], select option {
+ height: 2em;
+}
+.contact-info input{
+  margin: auto;
+}

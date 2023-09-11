@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Demo Survey Form</h1>
+    <p id="description">Thanks for taking out the time to fill out this form</p>
+    <form id="survey-form">
+      <fieldset class="contact-info">
+        <label for="name" id="name-label">Name<input type="text" required placeholder="Enter your name" id="name"></input></label>
+        <label for="email" id="email-label">Email<input type="email" required placeholder="Enter your email" id="email"></input></label>
+        <label for="number" id="number-label">Age<input type="number" required min="13" max="100" placeholder="Age" id="number"></input></label>
+        <p>Describe your relationship status</p>
+          <select name="relationship-status" id="dropdown">
+            <option value="0">(select)</option>
+            <option value="1">Single</option>
+            <option value="2">Engaged</option>
+            <option value="3">Married</option>
+            <option value="4">Divored</option>
+          </select>
+      </fieldset>
+      <fieldset class="nationality">
+        <p>Are you a Pakistani National?</p>
+        <label for="national-yes"><input type="radio" name="nationality" value="1"id="national-yes">Yes</input></label>
+        <label for="national-no"><input type="radio" name="nationality" value="0"id="national-no">No</input></label>
+        <p>Please select the languages you speak:</p>
+         <label> <input type="checkbox" value="1" name="languages">English</input></label>
+          <label><input type="checkbox" value="2" name="languages">Urdu</input></label>
+          <label><input type="checkbox" value="3" name="languages">Punjabi</input></label>
+          <label><input type="checkbox" value="4" name="languages">Saraiki</input></label>
+          <label><input type="checkbox" value="5" name="languages">Sindhi</input></label>
+         <label><input type="checkbox" value="6" name="languages">Pashto</input></label>
+         <label><input type="checkbox" value="7" name="languages">Balochi</input></label>
+      </fieldset>
+      <fieldset class="suggestion">
+        <label for="content">What kind of content would you like to see in the future?<textarea rows="6" cols="38" id="content"></textarea></label>
+        <label for="improvement-recommendation">What improvements can we make to make your experience more comfortable and fun?<textarea rows="6" cols="38" id="improvement-recommendation"></textarea></label>
+      </fieldset>
+      <input id="submit" type="submit"></input>
+    </form>
+  </body>
+</html>
